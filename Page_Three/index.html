@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/Page_Three/css/main.css">
+    <link rel="shortcut icon" href="/Images/earth-americas-solid (1).svg" type="image/x-icon">
+    <title>Hotel booking</title>
+</head>
+<body>
+
+    <div class="menu-toggle" id="menuToggle">  
+        <i class="fa-solid fa-angles-right"></i>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="title">
+            <h1><span class="highlight">C</span>hechen Tourism</h1>
+        </div>
+        <div class="list_menu">
+            <ul class="list">
+                <li><a href="/Page_two/index.html">Главная</a></li>
+                <li><a href="/Page_three/index.html">Бронь Отеля</a></li>
+                <li><a href="/Page_four/index.html">Гид</a></li>
+                <li><a href="/Page_Fife/index.html">Места</a></li>
+                <li><a href="https://t.me/Chechen_Tourism_bot">Избранные места</a></li>
+                <li><a href="https://t.me/Chechen_Tourism_bot">Chechen_Tourism Бот</a></li>
+                <li class="line"></li><br>
+                <li><a href="https://t.me/Chechen_Tourism_bot">Аккаунт</a></li>
+            </ul>
+        </div>
+        <div class="footer_menu">
+            <p>©Eldar_Gaytarov</p>
+            <p>©Ruslan_Gaytarov</p>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="header-nav">
+            <a href="/Page_Two/index.html" class="logo__png">
+                <img src="/Page_Two/images/logo.png" alt="">
+            </a>
+            <ul class="navigation">
+                <li class="nav__item">
+                    <a href="/Page_Two/index.html">Топ посещаемых мест</a>
+                </li>
+                <li class="nav__item">
+                    <a href="/Page_Two/index.html">Запланированные экскурсии</a>
+                </li>
+                <li class="nav__item">
+                    <a href="/Page_Two/index.html">Почему нас выбирают</a>
+                </li>
+                <li class="nav__item">
+                    <a href="/Page_Two/index.html">Отзывы</a>
+                </li>
+            </ul>
+            <div class="settings">
+                <button title="Регистрация" class="register">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hotel_bron animate">
+            <h1 class="hotel_bron__title">Бронирование отеля</h1>
+            <div class="booking-container">
+                <form class="booking-form">
+                    <label for="name">ФИО:</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Введите ваше ФИО" required 
+                        pattern="[А-Яа-яЁёA-Za-z\s]+" title="Используйте только буквы и пробелы">
+
+                    <label for="email">Почта:</label>
+                    <input type="email" id="email" placeholder="Введите ваш email" required>
+
+                    <label for="phone">Номер телефона:</label>
+                    <input type="text" id="phone" name="phone" placeholder="+7 (___) ___-__-__">
+
+                    <label for="hotel">Выберите отель:</label>
+                    <select id="hotel" required>
+                        <option value="">Выберите отель</option>
+                        <option value="hotel1">Гостиница "Грозный Сити"</option>
+                        <option value="hotel2">Thelocal Hotels Grozny</option>
+                        <option value="hotel3">Hotel Union Grozny</option>
+                        <option value="hotel4">Континент</option>
+                        <option value="hotel5">Central City Hotel</option>
+                        <option value="hotel6">Шали-Сити</option>
+                        <option value="hotel7">Gorodok</option>
+                    </select>
+
+                    <label for="guests">Количество гостей:</label>
+                    <input type="number" id="guests" min="1" max="15" placeholder="Укажите количество гостей" required>
+
+                    <label for="checkin">Дата заезда:</label>
+                    <input type="date" id="checkin" name="checkin" required>
+
+                    <label for="checkout">Дата выезда:</label>
+                    <input type="date" id="checkout" name="checkout" required>
+
+                    <label for="comments">Комментарии/пожелания:</label>
+                    <textarea id="comments" name="comments" placeholder="Введите ваши пожелания" rows="4"></textarea>
+
+                    <button type="submit">Забронировать</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-section">
+                <h4>О нас</h4>
+                <p>Мы предлагаем уникальные экскурсии по Чеченской Республике. Откройте самые красивые места с опытными гидами.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Быстрые ссылки</h4>
+                <ul>
+                    <li><a href="/Page_Two/js/">Топ посещаемых мест</a></li>
+                    <li><a href="/Page_Two/js/">Запланированные экскурсии</a></li>
+                    <li><a href="/Page_Two/js/">Почему нас выбирают</a></li>
+                    <li><a href="/Page_Two/js/">Отзывы</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <ul>
+                    <li>Email: info@chechentourism.ru</li>
+                    <li>Телефон: +7 (800) 123-45-67</li>
+                    <li>Адрес: г. Грозный, Чеченская Республика</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Следите за нами</h4>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://telegram.com" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Chechen Tourism. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <div class="button_on_up" id="scrollToTopBtn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <script src="/Page_Three/js/app.js"></script>
+</body>
+</html>
