@@ -121,12 +121,6 @@ body {
     margin-top: 50px;
 }
 
-.maps_two-title {
-    text-align: center;
-    color: var(--green-color-4);
-    margin-top: 50px;
-}
-
 #map {
     width: 80%;
     height: 500px;
@@ -224,6 +218,54 @@ body {
     border-radius: 10px;
 }
 
+/** Description */
+
+.desc, .what-place, .history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description__title, .place__title, .btns__title, .history__title {
+    text-align: center;
+    color: var(--green-color-4);
+    margin-top: 50px;
+}
+
+.desc p, .what-place p, .history p {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: left;
+    letter-spacing: normal;
+    max-width: 1200px;
+    margin-top: 24px;
+}
+
+/** Btns */
+
+.btns__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 20px;
+}
+
+.btn {
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: var(--green-color-4);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--green-color-3);
+}
+
 /*! Slider */
 
 .slider-container {
@@ -307,6 +349,7 @@ body {
     color: #f0f0f0;
     padding: 50px 5%;
     font-size: 0.9rem;
+    margin-top: 100px;
 }
 
 .footer-top {

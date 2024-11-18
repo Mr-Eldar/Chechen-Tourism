@@ -3,6 +3,9 @@ const ToggleBTN = document.querySelector('.toggle-btn')
 const menu = document.querySelector('.menu')
 const elements = document.querySelectorAll('.animate')
 const scrollToTopBtn = document.getElementById('scrollToTopBtn')
+const currentYear = document.querySelector('#current-year')
+
+currentYear.textContent = new Date().getFullYear()
 
 const observer = new IntersectionObserver(entries => {
 	entries.forEach(entry => {
