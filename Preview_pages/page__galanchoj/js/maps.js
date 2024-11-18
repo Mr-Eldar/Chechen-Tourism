@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Озеро Галанчож</h3>
                     <p>Галанчожское озеро находится в горной Чечне, на северных отрогах Скалистого хребтом Юкерлаш, в верховьях бассейна реки Гехи.</p>
-                    <img src="/Images/1.jpg" alt="Кезеной-Ам">
+                    <img src="/Page_Fife/images/galanchoj.jpg" alt="Кезеной-Ам">
                 </div>`,
 			},
 			{
