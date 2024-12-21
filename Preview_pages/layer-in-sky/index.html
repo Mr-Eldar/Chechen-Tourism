@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/Preview_pages/layer-in-sky/css/main.css">
+    <title>Лестница в небеса</title>
+</head>
+<body>
+    
+    <div class="menu-toggle" id="menuToggle">  
+        <i class="fa-solid fa-angles-right"></i>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="title">
+            <h1><span class="highlight">C</span>hechen Tourism</h1>
+        </div>
+        <div class="list_menu">
+            <ul class="list">
+                <li><a href="/Page_two/index.html">Главная</a></li>
+                <li><a href="/Page_three/index.html">Бронь Отеля</a></li>
+                <li><a href="/Page_four/index.html">Гид</a></li>
+                <li><a href="/Page_Fife/index.html">Места</a></li>
+                <li class="line"></li><br>
+                <li><a href="https://t.me/Chechen_Tourism_bot">Избранные места</a></li>
+                <li><a href="https://t.me/Chechen_Tourism_bot">Chechen_Tourism Бот</a></li>
+                <li class="line"></li><br>
+                <li><a href="https://t.me/Chechen_Tourism_bot">Аккаунт</a></li>
+            </ul>
+        </div>
+        <div class="footer_menu">
+            <p>©Eldar_Gaytarov</p>
+            <p>©Ruslan_Gaytarov</p>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="header-nav">
+            <a href="/Page_Two/index.html" class="logo__png">
+                <img src="/Page_Two/images/logo.png" alt="">
+            </a>
+            <ul class="navigation">
+                <li class="nav__item">
+                    <a href="/Page_Two/index.html">Топ посещаемых мест</a>
+                </li>
+                <li class="nav__item">
+                    <a href="/Page_Two/index.html">Запланированные экскурсии</a>
+                </li>
+                <li class="nav__item">
+                    <a href="/Page_Two/index.html">Почему нас выбирают</a>
+                </li>
+                <li class="nav__item">
+                    <a href="/Page_Two/index.html">Отзывы</a>
+                </li>
+            </ul>
+            <div class="settings">
+                <button title="Регистрация" class="register">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="descriptions animate">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="/Images/12.jpg" alt="Slide 1">
+                    </div>
+                    <div class="slide">
+                        <img src="/Preview_pages/layer-in-sky/images/img1.jpg" alt="Slide 2">
+                    </div>
+                    <div class="slide">
+                        <img src="/Preview_pages/layer-in-sky/images/img2.jpg" alt="Slide 3">
+                    </div>
+                    <div class="slide">
+                        <img src="/Preview_pages/layer-in-sky/images/img3.jpg" alt="Slide 4">
+                    </div>
+                </div>
+                <div class="nav">
+                    <span class="prev">&#10094;</span>
+                    <span class="next">&#10095;</span>
+                </div>
+                <div class="indicators">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            <div class="desc animate">
+                <h1 class="description__title">Описание</h1>
+                <p>"Лестница в небеса" находится в одном из крупных парков Грозного. Смотровая площадка сочетает в себе стильный дизайн и потрясающий вид на город. Подъем ведет на высоту, откуда открывается панорамный вид на городскую застройку, горы и окрестности. Особенно красивое зрелище можно наблюдать в вечернее время, когда Грозный озаряется разноцветной подсветкой, что делает вид с площадки поистине волшебным.
+                <br><br>Это место идеально подходит для прогулок, фотографий, романтических свиданий или просто отдыха. Конструкция сама по себе является символом современного Грозного – города, который активно развивается и привлекает внимание туристов.</p>
+            </div>
+            <div class="history animate">
+                <h1 class="history__title">История</h1>
+                <p>"Лестница в небеса" была построена как часть масштабного проекта благоустройства Грозного. Конструкция создана для того, чтобы подчеркнуть туристическую привлекательность города и показать его архитектурное развитие.
+                <br><br>Проект объединил элементы современной архитектуры и традиции Кавказа, отражая стремление Чечни к новому образу, не забывая о своих корнях. Точная дата постройки – середина 2010-х годов, в период активного обновления города.</p>
+            </div>
+            <div class="what-place animate">
+                <h1 class="place__title">Где находится</h1>
+                <p>"Лестница в небеса" расположена в Центральном парке имени Ахмата-Хаджи Кадырова в Грозном. Это главный парк города, который находится вблизи мечети "Сердце Чечни". </p>
+            </div>
+            <div class="map animate">
+                <h1 class="maps_one-title">Лестница в небеса на карте</h1>
+                <div id="map"></div>
+            </div>
+            <div class="btns">
+                <h1 class="btns__title">Полезные кнопки</h1>
+                <div class="btns__flex">
+                    <a href="/Page_Three/index.html"><button class="btn btn__order-nomer">Забронировать номер</button></a>
+                    <a href="#!"><button class="btn btn__tg-bot">Телеграмм бот</button></a>
+                    <a href="/Page_Fife/index.html"><button class="btn btn__home">Достопремичательства</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-section">
+                <h4>О нас</h4>
+                <p>Мы предлагаем уникальные экскурсии по Чеченской Республике. Откройте самые красивые места с опытными гидами.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Быстрые ссылки</h4>
+                <ul>
+                    <li><a href="#places">Топ посещаемых мест</a></li>
+                    <li><a href="#gids">Запланированные экскурсии</a></li>
+                    <li><a href="#choose_us">Почему нас выбирают</a></li>
+                    <li><a href="#review">Отзывы</a></li>
+                    <li><a href="/contact">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <ul>
+                    <li>Email: info@chechentourism.ru</li>
+                    <li>Телефон: +7 (800) 123-45-67</li>
+                    <li>Адрес: г. Грозный, Чеченская Республика</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Следите за нами</h4>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://telegram.com" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Chechen Tourism. Все права защищены.</p>
+        </div>
+    </footer>  
+
+    <div class="button_on_up" id="scrollToTopBtn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <script src="/Preview_pages/layer-in-sky/js/app.js" defer></script>
+    <script src="/Preview_pages/layer-in-sky/js/carousel.js" defer></script>
+    <script src="/Preview_pages/layer-in-sky/js/maps.js" defer></script>
+</body>
+</html>
