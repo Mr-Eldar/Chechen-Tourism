@@ -14,8 +14,8 @@ function init() {
                 <div class="balloon-content">
                     <h3>Озеро Кезеной-Ам</h3>
                     <p>Высокогорное озеро Кезенойам — самое большое по площади озеро Чечни и Большого Кавказа.</p>
-                    <img src="../page__kezenoi-am/images/1.jpg" alt="Кезеной-Ам">
-                </div>`,
+                    <img src="/images/1.jpg" alt="Кезеной-Ам">
+                </div>`,ак
 			},
 			{
 				preset: 'islands#icon',
