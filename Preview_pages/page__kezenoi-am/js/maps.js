@@ -13,8 +13,8 @@ function init() {
 				balloonContent: `
                 <div class="balloon-content">
                     <h3>Озеро Кезеной-Ам</h3>
-                    <p>Высокогорное озеро Кезенойам — самое большое по площади озеро Чечни и Большого Кавказа.</p>
-                    <img src="/1.jpg" alt="Кезеной-Ам">
+                    <p>Высокогорное озеро Кезеной-Ам — самое большое по площади озеро Чечни и Большого Кавказа.</p>
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/page__kezenoi-am/images/1.jpg" alt="Кезеной-Ам">
                 </div>`,
 			},
 			{
