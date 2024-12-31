@@ -10,6 +10,16 @@ const observer = new IntersectionObserver((entries) => {
 	});
 })
 
+const reviewsContainer = document.querySelector('.reviews-container')
+
+reviewsContainer.addEventListener('mouseenter', () => {
+	reviewsContainer.classList.add('paused') // Останавливаем анимацию
+})
+
+reviewsContainer.addEventListener('mouseleave', () => {
+	reviewsContainer.classList.remove('paused') // Возобновляем анимацию
+})
+
 const elements = document.querySelectorAll('.animate');
 elements.forEach(element => observer.observe(element));
 

@@ -430,9 +430,23 @@ body {
 }
 
 .reviews-container {
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px; 
+    /* display: grid;  */
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+    /* gap: 30px;  */
+    outline: 1px solid #1bbd38;
+    width: 90%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 1) 10%,
+        rgba(0, 0, 0, 1) 90%,
+        rgba(0, 0, 0, 0)
+    );
 }
 
 .review-card {
@@ -441,10 +455,58 @@ body {
     padding: 20px; 
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s; 
+    width: 473px;
+    height: 200px;
+    position: absolute;
+    left: calc(473px * 8);
+    animation: scrollLeft 30s linear infinite;
+    margin: 20px;
+}
+
+.reviews-container.paused .review-card {
+    animation-play-state: paused; /* Останавливает анимацию для всех карточек */
+}
+
+.card_1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+}
+
+.card_2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+
+.card_3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+
+.card_4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+
+.card_5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+
+.card_6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+
+.card_7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+
+.card_8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
+
+@keyframes scrollLeft {
+    to {
+        left: -500px;
+    }
 }
 
 .review-card:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-5px);
 }
 
 .review-text {
