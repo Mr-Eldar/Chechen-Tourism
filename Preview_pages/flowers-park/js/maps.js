@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Цветочный парк</h3>
                     <p>Цветочный парк поражает своей красотой и разнообразием. Здесь вы найдете клумбы, оформленные в виде сложных узоров, живые арки из цветов.</p>
-                    <img src="/Preview_pages/flowers-park/images/img1.jpg" alt="Хой">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/flowers-park/images/img1.jpg" alt="Хой">
                 </div>`,
 			},
 			{

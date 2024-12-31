@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Донди-Юрт</h3>
                     <p>Музей представляет собой отстроенный древний аул, занимающий территорию в 20-30 кв.м.</p>
-                    <img src="/Preview_pages/dondi-yurt/images/img3.jpg" alt="Аргунское ущелье">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/dondi-yurt/images/img2.jpg" alt="Аргунское ущелье">
                 </div>`,
 			},
 			{

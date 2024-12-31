@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Пхакоч</h3>
                     <p>Пхакоч – памятник средневекового зодчества. Ученые до сих пор не знают, когда замок был возведен</p>
-                    <img src="/Preview_pages/phakoch/images/img2.jpg" alt="Аргунское ущелье">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/phakoch/images/img1.jpg" alt="Аргунское ущелье">
                 </div>`,
 			},
 			{

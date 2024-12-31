@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Мечеть «Гордость мусульман»</h3>
                     <p>Мечеть имени Пророка Мухаммада «Гордость мусульман» является самой большой в Европе. Ее вместимость 30 тысяч человек.</p>
-                    <img src="/Preview_pages/mechet-gordost-musulman/images/img1.jpg">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/mechet-gordost-musulman/images/img4.jpg">
                 </div>`,
 			},
 			{

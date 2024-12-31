@@ -7,13 +7,13 @@ function init() {
 		})
 
     let placemark = new ymaps.Placemark(
-			[42.630200, 45.806000],
+			[42.6302, 45.806],
 			{
 				balloonContent: `
                 <div class="balloon-content">
                     <h3>Шаройский историко-архитектурный комплекс</h3>
                     <p>Шаройский историко-архитектурный комплекс расположен в селе Шарой Шаройского района Чечни.</p>
-                    <img src="/Preview_pages/sharoiscii-compleks/images/img2.jpg" alt="Хой">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/sharoiscii-compleks/images/sharoiskii-complecks.jpeg" alt="Хой">
                 </div>`,
 			},
 			{

@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Древний город Хой</h3>
                     <p>Сегодня Хой является популярным туристическим направлением. В последнее время ведётся работа по восстановлению и сохранению культурного наследия аула.</p>
-                    <img src="/Preview_pages/hoi/images/img1.jpg" alt="Хой">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/hoi/images/hoi.jpg" alt="Хой">
                 </div>`,
 			},
 			{

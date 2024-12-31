@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Национальный музей</h3>
                     <p>Национальный музей Чеченской Республики представляет собой объединение двух музеев, существующих ранее отдельно друг от друга, это: Чеченский Республиканский музей изобразительных искусств им. Захарова П.З. (1961) и Чеченский государственный объединенный музей (1924). Соединение музеев произошло в 1996 году.</p>
-                    <img src="/Preview_pages/nacionality-myseum-in-chechnya/images/img1.jpg" alt="Хой">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/nacionality-myseum-in-chechnya/images/3.jpg" alt="Хой">
                 </div>`,
 			},
 			{

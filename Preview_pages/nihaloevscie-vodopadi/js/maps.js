@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Нихалойские водопады</h3>
                     <p>Нихалойские водопады — одна из самых ярких природных «жемчужин» Чеченской Республики.</p>
-                    <img src="/Page_Fife/images/nihaloevscie-vodopadi.jpg" alt="Аргунское ущелье">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/nihaloevscie-vodopadi/images/nihaloevscie-vodopadi.jpg" alt="Аргунское ущелье">
                 </div>`,
 			},
 			{

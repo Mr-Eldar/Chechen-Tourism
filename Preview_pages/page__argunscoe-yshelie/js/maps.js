@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Аргунское ущелье</h3>
                     <p>Аргунское ущелье, простирающееся более 100 км от Черных гор до Хевсуретии (Грузия)</p>
-                    <img src="/Page_Fife/images/argunscoe-yshelie.jpg" alt="Аргунское ущелье">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/page__argunscoe-yshelie/images/argunscoe-yshelie.jpg" alt="Аргунское ущелье">
                 </div>`,
 			},
 			{

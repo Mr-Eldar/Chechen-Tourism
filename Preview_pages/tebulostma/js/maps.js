@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Тебулостма</h3>
                     <p>Тебулосмта находится на границе Чеченской Республики и Грузии. Она расположена в Боковом хребте Большого Кавказа</p>
-                    <img src="/Preview_pages/tebulostma/images/img1.jpg" alt="Аргунское ущелье">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/tebulostma/images/tebulostma.jpg" alt="Аргунское ущелье">
                 </div>`,
 			},
 			{

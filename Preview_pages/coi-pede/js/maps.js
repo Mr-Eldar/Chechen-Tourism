@@ -7,13 +7,13 @@ function init() {
 		})
 
     let placemark = new ymaps.Placemark(
-			[42.70839567914588,45.25862353356579],
+			[42.70839567914588, 45.25862353356579],
 			{
 				balloonContent: `
                 <div class="balloon-content">
                     <h3>Цой-Педе</h3>
                     <p>Цой-Педе — боевая башня на юге Чечни, в исторической области Малхиста.</p>
-                    <img src="/Images/13.jpg" alt="Аргунское ущелье">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/coi-pede/images/img2.jpg" alt="Аргунское ущелье">
                 </div>`,
 			},
 			{

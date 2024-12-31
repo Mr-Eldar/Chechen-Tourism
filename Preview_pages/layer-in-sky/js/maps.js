@@ -7,13 +7,13 @@ function init() {
 		})
 
     let placemark = new ymaps.Placemark(
-			[43.26708214063584,45.71729260048459],
+			[43.26708214063584, 45.71729260048459],
 			{
 				balloonContent: `
                 <div class="balloon-content">
                     <h3>Лестница в небеса</h3>
                     <p>"Лестница в небеса" находится в одном из крупных парков Грозного. Смотровая площадка сочетает в себе стильный дизайн и потрясающий вид на город.</p>
-                    <img src="/Preview_pages/layer-in-sky/images/img2.jpg" alt="Хой">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/layer-in-sky/images/img2.jpg" alt="Хой">
                 </div>`,
 			},
 			{

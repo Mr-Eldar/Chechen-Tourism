@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Мечеть «Средце Чечни»</h3>
                     <p>Одна из самых масштабных мечетей Европы находится в живописном и горном краю нашей страны, в сердце красивейшей кавказской республики Чечня</p>
-                    <img src="/Preview_pages/mechet-heart-chechen/images/img4.jpg">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/mechet-heart-chechen/images/img1.jpg">
                 </div>`,
 			},
 			{

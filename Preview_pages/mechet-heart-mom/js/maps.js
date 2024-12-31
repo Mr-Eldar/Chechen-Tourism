@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Мечеть «Средце Матери»</h3>
                     <p>Мечеть имени Аймани Кадыровой построена в стиле хай-тек и является первой мечетью на территории России, выполненной в ультрасовременном виде.</p>
-                    <img src="/Preview_pages/mechet-heart-mom/images/img1.jpg">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/mechet-heart-mom/images/img1.jpg">
                 </div>`,
 			},
 			{

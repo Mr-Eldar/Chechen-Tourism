@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Грозный Сити</h3>
                     <p>Грозный-Сити — это современный комплекс небоскрёбов, расположенный в центре Грозного на берегу реки Сунжа.</p>
-                    <img src="/Preview_pages/grozny-city/images/img1.jpg" alt="Хой">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/grozny-city/images/grozny-city.jpeg" alt="Хой">
                 </div>`,
 			},
 			{

@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Мемориальный комплекс славы</h3>
                     <p>Мемориальный комплекс Славы им. А.А. Кадырова — мемориал, посвященный Победе в Великой Отечественной войне, а также первому президенту Чеченской Республики.</p>
-                    <img src="/Page_Fife/images/memo-komplecs.jpeg" alt="Хой">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/memorial-complecks/images/img1.jpg" alt="Хой">
                 </div>`,
 			},
 			{

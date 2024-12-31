@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Ушкалойские башни</h3>
                     <p>Ушкалойские башни — средневековый памятник на скале в живописном Аргунском ущелье.</p>
-                    <img src="/IMages/5.jpg" alt="Аргунское ущелье">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/yshkaloickie-bashni/images/img1.jpg" alt="Аргунское ущелье">
                 </div>`,
 			},
 			{

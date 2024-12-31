@@ -7,13 +7,13 @@ function init() {
 		})
 
     let placemark = new ymaps.Placemark(
-			[43.19973119041623,45.90587600313076],
+			[43.19973119041623, 45.90587600313076],
 			{
 				balloonContent: `
                 <div class="balloon-content">
                     <h3>Шира-Юрт</h3>
                     <p>Архитектурно-этнографический музей «Шира-Юрт» расположен в селе Герменчук в Чеченской республике</p>
-                    <img src="/Preview_pages/shira-yurt/images/img1.jpg" alt="Хой">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/shira-yurt/images/img1.webp" alt="Хой">
                 </div>`,
 			},
 			{

@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Харачойский водопад</h3>
                     <p>Харачойский водопад — гидрологический памятник природы, расположенный в Веденском районе Чечни на северо-западной окраине горного селения Харачой.</p>
-                    <img src="/Page_Fife/images/harachoevsci-vodopad.jpg" alt="Харачойский водопад">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/harachoevscii-vodopad/images/img2.jpg" alt="Харачойский водопад">
                 </div>`,
 			},
 			{

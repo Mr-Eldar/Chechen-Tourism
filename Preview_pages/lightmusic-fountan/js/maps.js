@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>Светомузыкальный фонтан</h3>
                     <p>Один из самых красивых фонтанов России находится в Грозном.</p>
-                    <img src="/Page_Fife/images/fountan.jpg" alt="Хой">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/lightmusic-fountan/images/img2.jpg" alt="Хой">
                 </div>`,
 			},
 			{

@@ -13,7 +13,7 @@ function init() {
                 <div class="balloon-content">
                     <h3>бенойская центральная мечеть</h3>
                     <p>Бенойская главная мечеть находится в горной части Чеченской республики на высоте 945 метров над уровнем моря.</p>
-                    <img src="/Preview_pages/mechet-benoiscaa-centralnaa/images/img2.jpg">
+                    <img src="https://mr-eldar.github.io/Chechen-Tourism/Preview_pages/mechet-benoiscaa-centralnaa/images/img1.jpg">
                 </div>`,
 			},
 			{
