@@ -115,87 +115,63 @@ body {
 
 /*! Main */
 
-.places {
-    position: relative;
-    z-index: 100;
-}
-
 .places_category__list {
-    position: relative;
-    transform: translate(-29.3%); 
-    transition: 0.5s ease;
-}
-
-.places_category__list.active {
-    transform: translate(0);
+    width: 220px;
+    height: 65px;
+    background-color: white;
+    outline: 3px solid var(--green-color-3);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0.8rem;
+    padding-left: 1.2rem;
+    position: absolute;
+    z-index: 1000;
 }
 
 .category__list {
     display: flex;
     align-items: center;
-    gap: 15px;
-    width: 515px;
-    height: 45px;
-    background: white;
-    border-radius: 0 15px 15px 0;
-    border: 3px solid var(--green-color-3);
-    margin-left: -1px;
+    flex-direction: row;
+    gap: 1.5rem;
 }
 
-.category__item:first-child {
-    margin-left: 15px;
-}
-
-.toggle-btn {
-    cursor: pointer;
-    width: 30px;
-    height: 20px;
-    scale: 0.9;
-}
-
-.toggle-btn span {
-    width: 30px;
-    height: 3.2px;
-    background: var(--green-color-2);
-    display: block;
-    margin-bottom: 5px;
-    transition: 0.3s ease;
-    border-radius: 15px;
-}
-
-.toggle-btn.active span:nth-child(1) {
-    transform: rotate(45deg) translate(7px, 5px);
-}
-
-.toggle-btn.active span:nth-child(2) {
-    opacity: 0;
-    margin-left: 10px;
-}
-
-.toggle-btn.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(7px, -5px);
+.category__item {
+    position: relative; /* Устанавливаем, чтобы ::before было привязано к этому элементу */
 }
 
 .item__link {
-    color: #000;
-    transition: 0.3s ease;
     position: relative;
+    color: var(--green-color-4);
+    font-size: 23px;
+    transition: 0.3s ease;
 }
 
 .item__link::before {
-    content: '';
-    width: 100%;
-    height: 0.8px;
-    background-color: #000;
+    content: attr(data-tooltip);
     position: absolute;
-    bottom: -5px;
-    left: 0;
-    transition: 0.3s ease;
-    transform: scaleX(0);
+    top: 50%;
+    left: calc(100% + 24px); /* Расположим справа от элемента */
+    transform: translateY(-50%);
+    background-color: var(--color);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    white-space: nowrap;
+    opacity: 0;
+    z-index: 100;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .item__link:hover::before {
-    transform: scaleX(1);
+    opacity: 1;
+    transform: translateY(-50%) translateX(0); /* Плавное появление */
+    pointer-events: auto;
+}
+
+.item__link.active:hover {
+    color: var(--color);
 }
 
 /*! Beauties */

@@ -283,7 +283,7 @@ body {
 }
 
 .buttons button {
-    width: 180px;
+    width: 390px;
     height: 40px;
     background: #2bd765;
     color: #fff;
@@ -306,6 +306,10 @@ body {
 .btn__arrow.active .arrow {
     transition: 0.3s ease;
     margin-left: 13px;
+}
+
+.btn__arrow h3 {
+    font-size: 18px;
 }
 
 .list__text {
@@ -459,7 +463,7 @@ body {
     height: 200px;
     position: absolute;
     left: calc(473px * 8);
-    animation: scrollLeft 30s linear infinite;
+    animation: scrollLeft 40s linear infinite;
     margin: 20px;
 }
 
@@ -468,35 +472,35 @@ body {
 }
 
 .card_1 {
-    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+    animation-delay: calc(40s / 8 * (8 - 1) * -1);
 }
 
 .card_2 {
-    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+    animation-delay: calc(40s / 8 * (8 - 2) * -1);
 }
 
 .card_3 {
-    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+    animation-delay: calc(40s / 8 * (8 - 3) * -1);
 }
 
 .card_4 {
-    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+    animation-delay: calc(40s / 8 * (8 - 4) * -1);
 }
 
 .card_5 {
-    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+    animation-delay: calc(40s / 8 * (8 - 5) * -1);
 }
 
 .card_6 {
-    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+    animation-delay: calc(40s / 8 * (8 - 6) * -1);
 }
 
 .card_7 {
-    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+    animation-delay: calc(40s / 8 * (8 - 7) * -1);
 }
 
 .card_8 {
-    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+    animation-delay: calc(40s / 8 * (8 - 8) * -1);
 }
 
 @keyframes scrollLeft {
