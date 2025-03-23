@@ -370,6 +370,9 @@ body {
     color: #f0f0f0;
     padding: 50px 5%;
     font-size: 0.9rem;
+    width: 100%;
+    /* position: absolute; */
+    /* bottom: 0; */
 }
 
 .footer-top {

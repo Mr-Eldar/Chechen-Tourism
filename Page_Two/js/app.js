@@ -5,7 +5,7 @@ const btnsAnimate = document.querySelectorAll('.btn .btn__arrow')
 const observer = new IntersectionObserver((entries) => {
 	entries.forEach(entry => {
 		if (entry.isIntersecting) {
-		entry.target.classList.add('show');
+			entry.target.classList.add('show');
 		}
 	});
 })
